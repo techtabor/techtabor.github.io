@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "Band search"
+//subtitle:   "Zenekar kereső honlap"
+date:       2017-05-05 10:00:00
+author:     "Fraknói Ádám, Molnár-Sáska Zoltán, Vári-Kakas Andor"
+header-img: "img/projektek/bandsearch_background.jpg"
+categories: projektek
+---
+
+<h2>Cél</h2>
+A mi projektünk célja, hogy fiatalok, akik még nem játszanak semmilyen zenekarban, de szeretnének és nincsen bandájuk, könnyen találjanak hasonló embereket, akikkel szívesen tudnának játszani.
+
+<h2>Megvalósítás</h2>
+Ehhez lenne egy olyan honlap, ahol látható lenne, hogy ki milyen hangszeren, milyen stílusban, milyen nehézségi fokon játszik. Ez alapján mindenki a saját környezetében tudna keresni embereket és akár megalapítani egy új zenekart. Továbbá a rendszer automatikusan is felajánlana lehetőségeket, amiket az illetők elfogadhatnak.
+
+<h2>Képek</h2>
+Egy ember profilja:
+
+<img src="{{ site.baseurl }}/img/projektek/Bandsearch_profile.png" class="img-responsive" alt="Profile">
+
+
+Más emberekkel való összepárosítások:
+
+<img src="{{ site.baseurl }}/img/projektek/Bandsearch_matching.png" class="img-responsive" alt="Matching">
+
