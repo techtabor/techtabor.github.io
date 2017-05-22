@@ -7,12 +7,14 @@ author:     "Fraknói Ádám, Molnár-Sáska Zoltán, Vári-Kakas Andor"
 header-img: "img/projektek/bandsearch_background.jpg"
 categories: projektek
 ---
-
 <h2>Cél</h2>
 A mi projektünk célja, hogy fiatalok, akik még nem játszanak semmilyen zenekarban, de szeretnének és nincsen bandájuk, könnyen találjanak hasonló embereket, akikkel szívesen tudnának játszani.
 
 <h2>Megvalósítás</h2>
-Ehhez lenne egy olyan honlap, ahol látható lenne, hogy ki milyen hangszeren, milyen stílusban, milyen nehézségi fokon játszik. Ez alapján mindenki a saját környezetében tudna keresni embereket és akár megalapítani egy új zenekart. Továbbá a rendszer automatikusan is felajánlana lehetőségeket, amiket az illetők elfogadhatnak.
+Ehhez készítettünk egy honlapot, ahol látható, hogy ki milyen hangszeren, milyen stílusban, milyen nehézségi fokon játszik. Ez alapján mindenki a saját környezetében tud keresni embereket és akár megalapítani egy új zenekart. Továbbá a rendszer automatikusan is felajánl lehetőségeket, amiket az illetők elfogadhatnak.
+
+<h2>Technológiák</h2>
+Webszerverként <a href="https://nodejs.org">node.js</a> szervert használunk, bejelentkezéshez pedig <a href="http://passportjs.org/">passportot</a>. Templete engine-ként először <a href="https://pugjs.org">pug</a>-ot kezdtünk el használni, de mivel kényelmetlen volt a használata, mert nagyon eltért a HTML formátumtól, ezért áttértünk az <a href="http://ejs.co/">ejs</a>-re.
 
 <h2>Képek</h2>
 Egy ember profilja:
@@ -20,7 +22,8 @@ Egy ember profilja:
 <img src="{{ site.baseurl }}/img/projektek/Bandsearch_profile.png" class="img-responsive" alt="Profile">
 
 
-Más emberekkel való összepárosítások:
+Zenakar felajánlása:
 
 <img src="{{ site.baseurl }}/img/projektek/Bandsearch_matching.png" class="img-responsive" alt="Matching">
 
+<h2><a href="https://github.com/msaska9/Zenekar">Forráskód</a></h2>
