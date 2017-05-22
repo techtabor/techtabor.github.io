@@ -3,7 +3,7 @@ layout:     post
 title:      "RoboClash"
 date:       2017-04-20 04:20:00
 author:     "Schweitzer Ádám, Nanys Patrick"
-header-img: "img/projektek/RoboClash_Background.png"
+header-img: "img/projektek/roboclash_background.png"
 categories: projektek
 ---
 
@@ -19,17 +19,17 @@ A kódok élő pontos rendszerben rang listázva lesznek az eredményeik alapjá
 <h2 class="section-heading">Bejelentkezési felület</h2>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/RoboClash_Login.png" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/roboclash_login.png" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <h2 class="section-heading">Kódolási felület</h2>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/RoboClash_Code.png" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/roboclash_code.png" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <h2 class="section-heading">Játék szimulálása</h2>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/RoboClash_Game.png" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/roboclash_game.png" class="img-responsive" alt="Post Sample Image">
 </a>
