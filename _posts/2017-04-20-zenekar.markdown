@@ -19,11 +19,11 @@ Webszerverként <a href="https://nodejs.org">node.js</a> szervert használunk, b
 <h2>Képek</h2>
 Egy ember profilja:
 
-<img src="{{ site.baseurl }}/img/projektek/Bandsearch_profile.png" class="img-responsive" alt="Profile">
+<img src="{{ site.baseurl }}/img/projektek/bandsearch_profile.png" class="img-responsive" alt="Profile">
 
 
 Zenakar felajánlása:
 
-<img src="{{ site.baseurl }}/img/projektek/Bandsearch_matching.png" class="img-responsive" alt="Matching">
+<img src="{{ site.baseurl }}/img/projektek/bandsearch_matching.png" class="img-responsive" alt="Matching">
 
 <h2><a href="https://github.com/msaska9/Zenekar">Forráskód</a></h2>
