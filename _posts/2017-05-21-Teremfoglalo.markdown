@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Teremfoglaló app"
-subtitle:   "Iskolai tanrermek foglaltságának nyilvántartásához"
+subtitle:   "Iskolai tantermek foglaltságának nyilvántartásához"
 date:       2017-05-21 19:54:00
 author:     "Koltai Dani, Veres Tomi"
 header-img: "img/post-bg-07.jpg"
@@ -24,4 +24,4 @@ Dolgozunk rajta, hogy lehessen időpontra termet keresni, foglalásnál további
 
 
 ## Forráskód
-https://github.com/techtabor/Teremfoglalo-app
+[A projekt forráskódja github-on](https://github.com/techtabor/Teremfoglalo-app)
