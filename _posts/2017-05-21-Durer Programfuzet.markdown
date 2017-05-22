@@ -29,3 +29,4 @@ Ha pedig sikerült eltévedned, akkor használhatod a mellékelt térképet.
 Az alkalmazás kivitelezése lehetővé teszi, hogy más hasonló rendezvényeken is használható legyen, az adatok kis módosításával.
 Az app használatát elősegíti az Ionic Framework által biztosított korszerű design, illetve az, hogy Android és iOS operációs rendszer alatt is elérhető.
 
+[github](https://github.com/mszsofi/durer)
