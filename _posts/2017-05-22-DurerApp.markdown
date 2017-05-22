@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Dürer App"
+title:      "Dürer Programfüzet"
 subtitle:   "A döntő teljes programja egy kattintás távolságra"
 date:       2017-05-21
 author:     "Molnár-Sáska Zsófi & Fuisz Gábor"
