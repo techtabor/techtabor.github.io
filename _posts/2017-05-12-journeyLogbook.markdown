@@ -40,6 +40,9 @@ categories: projektek
 
 <p>Az oldal alapfunkciói Javascript-ben lettek megírva. A térképes megjelenítéshez a <a href="https://developers.google.com/maps/">Google Maps API</a>-jai, a grafikonok elkészítéséhez a <a href="https://developers.google.com/chart/">Google Charts</a> szolgáltatása lett használva.</p>
 
+<h3> <a href="https://mazalan01.github.io/"> Élő demo-verzió </a> </h3>
+<h3> <a href="https://github.com/mazalan01/mazalan01.github.io"> Elérhető forráskód </a> </h3>
+
 <!--<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
 
 <a href="#">
