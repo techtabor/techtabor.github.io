@@ -36,4 +36,4 @@ A kódok élő pontos rendszerben rang listázva lesznek az eredményeik alapjá
 
 <a href="https://github.com/adamsch60/Tech-t-bor-projekt">Itt nézhető meg a projektünk jelenlegi állása.</a>
 
-<a href="188.166.63.247:8080">Itt érhető el a weboldalunk.</a>
+<a href="http:\\188.166.63.247:8080">Itt érhető el a weboldalunk.</a>
