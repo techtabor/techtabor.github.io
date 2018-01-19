@@ -38,5 +38,5 @@ permalink: /:categories/:title/
 paginate: 100
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]
 # Build settings
