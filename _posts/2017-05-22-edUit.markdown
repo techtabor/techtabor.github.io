@@ -5,7 +5,7 @@ subtitle:   "A modular document editor"
 date:       2017-05-22
 author:     "Bálint Martin"
 header-img: "img/projektek/eduit_background.png"
-categories: projekt
+categories: projektek
 ---
 edUit
 =====

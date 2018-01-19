@@ -12,7 +12,7 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-            {% for post in site.posts %}
+            {% for post in site.categories.projektek %}
             <div class="col-lg-4 col-sm-6">
                 <a href="{{ post.url }}" class="portfolio-box">
                     <img src="/{{ post.header-img }}" class="img-responsive" alt="">
