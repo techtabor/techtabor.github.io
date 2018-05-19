@@ -85,6 +85,60 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base"
+    "mixins",
+    "base"
 ;
+
+.btn-outline-dark {
+    color: white;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
+    border: 1px solid;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        color: white;
+        background-color: $theme-secondary;
+        border-color: $theme-secondary;
+    }
+}
+
+table {
+    background-color: white;
+    font-size: 16px;
+
+    thead {
+        background-color: #f0f0f0;
+
+        tr th {
+            text-align: center;
+        }
+    }
+
+    tr {
+        td, th {
+            vertical-align: middle !important;
+        }
+
+        &.size-half {
+            height: 20px;
+        }
+
+        &.size-one {
+            height: 40px;
+        }
+
+        &.size-oneandahalf {
+            height: 60px;
+        }
+
+        &.size-two {
+            height: 80px;
+        }
+
+        &.size-three {
+            height: 120px;
+        }
+    }
+}
