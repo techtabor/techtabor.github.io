@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+{% include nav-blog.html %}
+
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+            {{ content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10">
+            <div class="row">
+                <div class="container col-sm-12 editor-container" style="height: 400px">
+                    <pre id="editor">
+
+let s = input();
+print("Hello " + s);</pre>
+                </div>
+            </div>
+            <div class="row button-row">
+                <div class="col-xs-3">
+                    <button class="btn btn-primary btn-xl btn-exec" onclick="runWithDelay()">Futtatás</button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-success btn-xl btn-exec" onclick="startTest()">Ellenőrzés</button>
+                </div>
+                <div class="col-xs-6">
+                    <p id="notification-area"></p>
+                </div>
+            </div>
+            <div class="row io-row">Bemenet:<textarea id="stdin-text" class="form-control" rows="5"></textarea></div>
+            <div class="row io-row" >Kimenet:<textarea id="stdout-text" class="form-control" rows="5"></textarea></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+        {% for test in site.data.dojotestdata %}
+            {% if test.task == page.title %}
+            <div class="panel panel-default test-panel" id={{ "test-panel-" | append: forloop.index }}>
+                <div class="panel-heading">
+                    <h4><span>{{forloop.index}}. teszt</span>
+                    <button class="btn btn-default" onclick=singleTest({{forloop.index}}) style="float: right;">Teszt futtatása</button></h4>
+                </div>
+                <div class="panel-body">
+                    Bemenet:
+                    <pre class="test-input-text" id={{ "test-input-" | append: forloop.index }}>{{ test.input }}</pre>
+                    Helyes kimenet:
+                    <pre class="test-output-text" id={{ "test-output-" | append: forloop.index }}>{{ test.output }}</pre>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</section>
+{% include contact.html %}
+
+<style type="text/css">
+    #editor { 
+        margin: 10px 15px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .io-row {
+        margin: 10px 0px;
+    }
+
+    #stdin-text, #stdout-text {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 12pt;
+    }
+
+    .button-row {
+        height: 80px;
+    }
+
+    #notification-area {
+        margin: 10px 20px;
+    }
+    
+    .btn-exec {
+        margin: 10px 0px;
+    }
+
+    .btn-default {
+        font-size: 11px;
+    }
+
+    .test-input-text, .test-output-text {
+        border-width: 1px;
+        font-size: 12pt;
+    }
+
+    .test-passed {
+        background-color: lightgreen;
+    }
+
+    .test-failed {
+        border-color: red;
+    }
+</style>
+
+<script src="{{ site.baseurl }}/js/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ site.baseurl }}/js/dojo.js" type="text/javascript" charset="utf-8"></script>
+{% include scripts.html %}
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+[
+    {
+        "task" : "Greeting Kata 1",
+        "input": "Sasha",
+        "output": "Good morning, Sasha!"
+    },
+    {
+        "task" : "Greeting Kata 1",
+        "input": "Lord Voldemort",
+        "output": "Good morning, Lord Voldemort!"
+    }
+]
