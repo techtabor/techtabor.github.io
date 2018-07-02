@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <body id="page-top">
-{% include nav-blog.html %}
+{% include nav-dojo.html %}
 
 <section class="task-description">
 <div class="container">
@@ -21,11 +21,11 @@
     <div class="row">
         <div class="col-xs-10">
             <div class="row">
-                <div class="container col-sm-12 editor-container" style="height: 400px">
+                <div class="container col-sm-12" id="editor-container">
                     <pre id="editor">
 
 let s = input();
-print("Good morning, " + s + "!");</pre>
+print("Hello " + s);</pre>
                 </div>
             </div>
             <div class="row button-row">
@@ -53,13 +53,15 @@ print("Good morning, " + s + "!");</pre>
             <div class="panel panel-default test-panel" id={{ "test-panel-" | append: forloop.index }}>
                 <div class="panel-heading">
                     <h4><span>{{forloop.index}}. teszt</span>
-                    <button class="btn btn-default btn-test-exec" onclick="singleTest({{forloop.index}})" style="float: right;">Teszt futtatása</button></h4>
+                    <button class="btn btn-default btn-test-exec" onclick="singleTest({{forloop.index}})">
+                        Teszt futtatása
+                    </button></h4>
                 </div>
                 <div class="panel-body">
                     Bemenet:
-                    <pre class="test-input-text" id={{ "test-input-" | append: forloop.index }}>{{ test.input }}</pre>
+                    <pre class="test-input-text" id="test-input-{{forloop.index}}">{{ test.input }}</pre>
                     Helyes kimenet:
-                    <pre class="test-output-text" id={{ "test-output-" | append: forloop.index }}>{{ test.output }}</pre>
+                    <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output }}</pre>
                 </div>
             </div>
             {% endif %}

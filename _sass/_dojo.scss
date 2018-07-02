@@ -1,0 +1,81 @@
+
+#editor { 
+    margin: 10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#editor-container {
+    height: 400px;
+}
+
+code {
+    padding: 0px 4px;
+    font-size: 90%;
+    color: white;
+    background: $theme-dark;
+    border-radius: 4px;
+}
+
+.task-description {
+    padding-bottom: 10px;
+    background: url("../img/bg-pattern.png"), $head-primary; /* fallback for old browsers */
+    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary); /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    color: white;
+    h2 {
+        color: $theme-primary;
+    }
+}
+
+.coding-area {
+    padding-top: 10px;
+    background: url("../img/bg-pattern.png"), white;
+}
+
+.io-row {
+    margin: 10px 0px;
+}
+
+#stdin-text, #stdout-text {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12pt;
+}
+
+.button-row {
+    height: 80px;
+}
+
+#notification-area {
+    margin: 10px 20px;
+}
+
+.btn-exec {
+    margin: 10px 0px;
+}
+
+.btn-test-exec {
+    font-size: 11px;
+    float: right;
+}
+
+.test-input-text, .test-output-text {
+    border-width: 1px;
+    font-size: 12pt;
+}
+
+.test-passed {
+    background-color: lightgreen;
+}
+
+.test-failed {
+    border-color: red;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
