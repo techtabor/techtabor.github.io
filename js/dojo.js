@@ -96,6 +96,7 @@ function chainedTest(k) {
     let test_cnt = $(".test-input-text").length;
     if (k > test_cnt) {
         console.log("All tests succeded :)");
+        $("#success-modal").modal();
     } else {
         if (singleTest(k)) {
             if (k < test_cnt) setTimeout(function() { $("#stdout-text").val(""); }, 400)
