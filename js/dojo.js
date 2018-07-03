@@ -24,7 +24,7 @@ function print(s) {
 }
 
 function runWithDelay() {
-    $("#notification-area").hide();
+    $("#notification-area").html("<br>");
     $("#stdout-text").val("");
     setTimeout(run, 400);
 }
@@ -58,7 +58,9 @@ function startTest() {
     $(".test-output-text").removeClass("test-passed");
     $(".test-panel").removeClass("panel-success");
     $(".test-panel").removeClass("panel-danger");
+    $("#notification-area").html("<br>");
     $("#stdout-text").val("");
+    $("#stdin-text").val("");
     setTimeout(function() { chainedTest(1); }, 400);
 }
 
@@ -79,7 +81,7 @@ function singleTest(k) {
         $("#" + in_id).removeClass("test-passed");
         $("#" + out_id).removeClass("test-passed");
         $("#test-panel-" + k).removeClass("panel-success");
-        $("#notification-area").append("<br>Helytelen a kimenet a(z) " + k + ". tesztre.");
+        $("#notification-area").append(" Helytelen a kimenet a(z) " + k + ". tesztre.");
         $("#notification-area").addClass("text-danger");
         return false;
     }
@@ -99,7 +101,11 @@ function chainedTest(k) {
         $("#success-modal").modal();
     } else {
         if (singleTest(k)) {
-            if (k < test_cnt) setTimeout(function() { $("#stdout-text").val(""); }, 400)
+            if (k < test_cnt) setTimeout(function() { 
+                $("#notification-area").html("<br>");
+                $("#stdout-text").val("");
+                $("#stdin-text").val("");
+            }, 400)
             // Call next test with some delay.
             setTimeout(function() { chainedTest(k + 1); }, 800);
         }

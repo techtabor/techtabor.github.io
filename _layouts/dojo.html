@@ -29,19 +29,19 @@ print("Hello " + s);</pre>
                 </div>
             </div>
             <div class="row button-row" id="exec-button-row">
-                <div class="col-xs-6 col-md-3">
+                <div class="col-xs-6 col-md-2">
                     <button class="btn btn-primary btn-xl btn-exec" onclick="runWithDelay()">Futtatás</button>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <a class="btn btn-success btn-xl btn-exec btn-test-exec page-scroll" href="#exec-button-row" onclick="startTest()">Ellenőrzés</a>
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <p id="notification-area"></p>
+                <div class="col-xs-12 col-md-7">
+                    <p id="notification-area"><br></p>
                 </div>
             </div>
             <div class="row io-row">
-                <div class="col-md-6"><p>Bemenet:<textarea id="stdin-text" class="form-control" rows="5"></textarea></p></div>
-                <div class="col-md-6"><p>Kimenet:<textarea id="stdout-text" class="form-control" rows="5"></textarea></p></div>
+                <div class="col-md-5"><p>Bemenet:<textarea id="stdin-text" class="form-control" rows="5"></textarea></p></div>
+                <div class="col-md-7"><p>Kimenet:<textarea id="stdout-text" class="form-control" rows="5"></textarea></p></div>
             </div>
         </div>
     </div>
@@ -59,11 +59,11 @@ print("Hello " + s);</pre>
                     </a></h4>
                 </div>
                 <div class="panel-body"><div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <span>Bemenet:</span>
                         <pre class="test-input-text" id="test-input-{{forloop.index}}">{{ test.input }}</pre>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <span>Helyes kimenet:</span>
                         <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output }}</pre>
                     </div>
