@@ -1,12 +1,22 @@
-[
-    {
-        "task" : "Challenge #1",
-        "input": "Sasha",
-        "output": "Good morning, Sasha!"
-    },
-    {
-        "task" : "Challenge #1",
-        "input": "Lord Voldemort",
-        "output": "Good morning, Lord Voldemort!"
-    }
-]
+{
+    "Challenge #1": [
+        {
+            "input": "Sasha",
+            "output": "Good morning, Sasha!"
+        },
+        {
+            "input": "Lord Voldemort",
+            "output": "Good morning, Lord Voldemort!"
+        }
+    ],
+    "Challenge #2": [
+        {
+            "input": "Sasha",
+            "output": "****************************************\nGood morning, Sasha!\n****************************************"
+        },
+        {
+            "input": "Professor Proton",
+            "output": "****************************************\nGood morning, Professor Proton!\n****************************************"
+        }
+    ]
+}

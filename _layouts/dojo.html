@@ -48,8 +48,7 @@ print("Hello " + s);</pre>
 <div class="container">
     <div class="row">
         <div class="col-xs-10">
-        {% for test in site.data.dojotestdata %}
-            {% if test.task == page.title %}
+        {% for test in site.data.dojotestdata[page.title] %}
             <div class="panel panel-default test-panel" id={{ "test-panel-" | append: forloop.index }}>
                 <div class="panel-heading">
                     <h4><span>{{forloop.index}}. teszt</span>
@@ -64,7 +63,6 @@ print("Hello " + s);</pre>
                     <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output }}</pre>
                 </div>
             </div>
-            {% endif %}
         {% endfor %}
         </div>
     </div>
@@ -73,20 +71,28 @@ print("Hello " + s);</pre>
 <!-- Modal dialog for success-->
 <div id="success-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header bg-success">
-          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
-          <h4 class="modal-title text-success">Gratulálok, megoldottad ezt a feladatot <i class="fa fa-smile-o"></i></h4>
+        <div class="modal-content">
+            <div class="modal-header bg-success">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                <h4 class="modal-title text-success">Gratulálok, megoldottad ezt a feladatot <i class="fa fa-smile-o"></i></h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-success">Minden tesztre helyes választ adott a programod.
+                {% if page.next-task %}
+                <br>Jöhet a következő kihívás? ^^</p>
+            </div>
+            <div class="modal-footer">
+                <a href="/dojo/{{page.next-task}}" class="btn btn-primary">Következő feladat</a>
+                {% else %}
+                <br>Ezzel sikeresen teljesítetted ezt a küldetést <i class="fa fa-smile-o"></i></p>
+            </div>
+            <div class="modal-footer">
+                <a href="/" class="btn btn-primary">Vissza a főoldalra</a>    
+                {% endif %}
+            </div>
         </div>
-        <div class="modal-body">
-          <p class="text-success">Minden tesztre helyes választ adott a programod. Jöhet a következő kihívás? ^^</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Következő kihívás</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
 </section>
 
