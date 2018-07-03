@@ -28,12 +28,12 @@ let s = input();
 print("Hello " + s);</pre>
                 </div>
             </div>
-            <div class="row button-row">
+            <div class="row button-row" id="exec-button-row">
                 <div class="col-xs-6 col-md-3">
                     <button class="btn btn-primary btn-xl btn-exec" onclick="runWithDelay()">Futtatás</button>
                 </div>
                 <div class="col-xs-6 col-md-3">
-                    <button class="btn btn-success btn-xl btn-exec" onclick="startTest()">Ellenőrzés</button>
+                    <a class="btn btn-success btn-xl btn-exec page-scroll" href="#exec-button-row" onclick="startTest()">Ellenőrzés</a>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <p id="notification-area"></p>
@@ -45,21 +45,21 @@ print("Hello " + s);</pre>
     </div>
 </div>
 
-<div class="container">
+<div id="test-container" class="container">
     <div class="row">
         <div class="col-xs-10">
         {% for test in site.data.dojotestdata[page.title] %}
             <div class="panel panel-default test-panel" id={{ "test-panel-" | append: forloop.index }}>
                 <div class="panel-heading">
                     <h4><span>{{forloop.index}}. teszt</span>
-                    <button class="btn btn-default btn-test-exec" onclick="singleTest({{forloop.index}})">
+                    <a class="btn btn-default btn-test-exec page-scroll" href="#exec-button-row" onclick="singleTest({{forloop.index}})">
                         Teszt futtatása
-                    </button></h4>
+                    </a></h4>
                 </div>
                 <div class="panel-body">
-                    Bemenet:
+                    <span>Bemenet:</span>
                     <pre class="test-input-text" id="test-input-{{forloop.index}}">{{ test.input }}</pre>
-                    Helyes kimenet:
+                    <span>Helyes kimenet:</span>
                     <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output }}</pre>
                 </div>
             </div>
@@ -82,12 +82,12 @@ print("Hello " + s);</pre>
                 <br>Jöhet a következő kihívás? ^^</p>
             </div>
             <div class="modal-footer">
-                <a href="/dojo/{{page.next-task}}" class="btn btn-primary">Következő feladat</a>
+                <a href="/dojo/{{page.next-task}}" class="btn btn-default btn-xl">Következő feladat</a>
                 {% else %}
                 <br>Ezzel sikeresen teljesítetted ezt a küldetést <i class="fa fa-smile-o"></i></p>
             </div>
             <div class="modal-footer">
-                <a href="/" class="btn btn-primary">Vissza a főoldalra</a>    
+                <a href="/" class="btn btn-default btn-xl">Vissza a főoldalra</a>    
                 {% endif %}
             </div>
         </div>

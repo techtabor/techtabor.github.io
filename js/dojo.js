@@ -95,7 +95,7 @@ function singleTest(k) {
 function chainedTest(k) {
     let test_cnt = $(".test-input-text").length;
     if (k > test_cnt) {
-        console.log("All tests succeded :)");
+        console.log("All tests succeeded :)");
         $("#success-modal").modal();
     } else {
         if (singleTest(k)) {
