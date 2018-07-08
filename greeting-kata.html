@@ -1,0 +1,47 @@
+---
+layout: default
+title:  "Greeting kata"
+---
+<section class="task-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Greeting kata</h1>
+                <h3><a data-toggle="collapse" href="#readme-collapse">
+                    Read me first <i class="fa fa-angle-down"></i>
+                </a></h3>
+                <div class="collapse" id="readme-collapse">
+                    <p>
+                        Ez a feladatsor az iteratív fejlesztésről szól, vagyis arról, hogy egy programot
+                        lépésről lépésre egészítünk ki új funkciókkal. A feladatok egymásra épülnek, és
+                        egyre nehezednek, ezért sorban haladj rajtuk. Igyekezz mindig úgy megoldani az
+                        aktuális feladatot, hogy könnyen lehessen módosítani, kiegészíteni a program
+                        működését. A feladatokat itt a böngészőben, JavaScript nyelven tudod megoldani,
+                        nem kell hozzá segédeszköz, de nyugodtan használd a Google-t.&nbsp;<i class="fa fa-smile-o"></i>&nbsp;
+                        Ha valahol elakadsz, a lenti kapcsolatok valamelyikén kérhetsz segítséget tőlünk.
+                    </p>
+                    <p>
+                        <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;Tudtad?<br>
+                        A "kata" a harcművészetekben használt japán szó, a mozdulatok önálló gyakorlását jelenti.
+                        A "coding kata" ennek megfelelője a szoftverfejlesztésben: gyakorló feladatok megoldása
+                        a programozási tudás elmélyítése érdekében. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="padding: 50px 0px;">
+    <div class="container"><div class="row"><div class="col-xs-12" >
+        <ul style="list-style: none; padding: 0px;">
+            {% for post in site.categories.dojo reversed %}
+            <li>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}" class="dojo-task-link">
+                    <img src="/img/logo-small-256.png" />
+                    {{ post.title }}
+                </a></h2>
+            </li>
+            {% endfor %}
+        </ul>
+    </div></div></div>
+</section>

@@ -5,18 +5,21 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Menü ki/bekapcsolása</span> Menü <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/logo-small-256.png" />{{ page.title }}</a>
+            <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/logo-small-256.png" />
+                {{ page.title | truncatewords: 2 | remove: ":..."}}
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% if page.previous-task %}
-                    <li><a href="{{page.previous-task}}">Előző feladat</a></li>
+                    <li><a href="{{page.previous-task}}">Előző</a></li>
                 {% endif %}
                 {% if page.next-task %}
-                    <li><a href="{{page.next-task}}">Következő feladat</a></li>
+                    <li><a href="{{page.next-task}}">Következő</a></li>
                 {% endif %}
+                <li><a href="{{page.overview}}">Áttekintés</a></li>
                 <li><a href="/">Techtábor Főoldal</a></li>
             </ul>
         </div>
