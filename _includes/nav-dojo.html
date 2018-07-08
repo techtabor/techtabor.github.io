@@ -12,10 +12,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% if page.previous-task %}
-                    <li><a href="/dojo/{{page.previous-task}}">Előző feladat</a></li>
+                    <li><a href="{{page.previous-task}}">Előző feladat</a></li>
                 {% endif %}
                 {% if page.next-task %}
-                    <li><a href="/dojo/{{page.next-task}}">Következő feladat</a></li>
+                    <li><a href="{{page.next-task}}">Következő feladat</a></li>
                 {% endif %}
                 <li><a href="/">Techtábor Főoldal</a></li>
             </ul>

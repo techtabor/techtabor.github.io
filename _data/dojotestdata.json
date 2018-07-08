@@ -1,5 +1,5 @@
 {
-    "Challenge #1": [
+    "/dojo/greeting-challenge-1": [
         {
             "input": "Sasha",
             "output": "Good morning, Sasha!"
@@ -9,7 +9,7 @@
             "output": "Good morning, Lord Voldemort!"
         }
     ],
-    "Challenge #2": [
+    "/dojo/greeting-challenge-2": [
         {
             "input": "Sasha",
             "output": "****************************************\nGood morning, Sasha!\n****************************************"
@@ -19,7 +19,7 @@
             "output": "****************************************\nGood morning, Professor Proton!\n****************************************"
         }
     ],
-    "Challenge #3": [
+    "/dojo/greeting-challenge-3": [
         {
             "input": "Joey",
             "output": "****************************************\nGood morning, Joey!\n****************************************"

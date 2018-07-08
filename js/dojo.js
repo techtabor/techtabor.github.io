@@ -8,6 +8,18 @@ editor.setOptions({
     fontSize: 20 
 });
 
+var task_id = document.title;
+function init(curr_task_id, prev_task_id) {
+    task_id = curr_task_id;
+    let initial_code = localStorage.getItem(task_id + "-program");
+    if (!initial_code && prev_task_id) {
+        initial_code = localStorage.getItem(prev_task_id + "-program");
+    }
+    if (initial_code) {
+        editor.setValue(initial_code, -1);
+    }
+}
+
 var line_number = 0;
 var lines = [];
 function input() {
@@ -36,6 +48,7 @@ function run() {
     console.log("Input lines: " + lines);
     line_number = 0;
     let code = editor.getValue();
+    localStorage.setItem(task_id + "-program", code);
     try {
         $("#notification-area").hide();
         eval(code);

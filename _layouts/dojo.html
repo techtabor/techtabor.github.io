@@ -50,7 +50,7 @@ print("Hello " + s);</pre>
 <div id="test-container" class="container">
     <div class="row">
         <div class="col-lg-10">
-        {% for test in site.data.dojotestdata[page.title] %}
+        {% for test in site.data.dojotestdata[page.id] %}
             <div class="panel panel-default test-panel" id={{ "test-panel-" | append: forloop.index }}>
                 <div class="panel-heading">
                     <h4><span>{{forloop.index}}. teszt</span>
@@ -88,7 +88,7 @@ print("Hello " + s);</pre>
                 <br>Jöhet a következő kihívás? ^^</p>
             </div>
             <div class="modal-footer">
-                <a href="/dojo/{{page.next-task}}" class="btn btn-default btn-xl">Következő feladat</a>
+                <a href="{{page.next-task}}" class="btn btn-default btn-xl">Következő feladat</a>
                 {% else %}
                 <br>Ezzel sikeresen teljesítetted ezt a küldetést <i class="fa fa-smile-o"></i></p>
             </div>
@@ -101,10 +101,14 @@ print("Hello " + s);</pre>
 </div>
 
 </section>
-
+{% include scripts.html %}
 <script src="{{ site.baseurl }}/js/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 <script src="{{ site.baseurl }}/js/dojo.js" type="text/javascript" charset="utf-8"></script>
-{% include scripts.html %}
+<script type="text/javascript">
+    $( document ).ready(function() {
+        init("{{page.id}}", "{{page.previous-task}}");
+    });
+</script>
 </body>
 
 </html>
