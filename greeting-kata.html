@@ -1,7 +1,12 @@
 ---
-layout: default
-title:  "Greeting kata"
 ---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+{% include nav-blog.html %}
 <section class="task-description">
     <div class="container">
         <div class="row">
@@ -36,7 +41,7 @@ title:  "Greeting kata"
         <ul style="list-style: none; padding: 0px;">
             {% for post in site.categories.dojo reversed %}
             <li>
-                <h2><a href="{{ post.url | prepend: site.baseurl }}" class="dojo-task-link">
+                <h2><a href="{{ post.url | prepend: site.baseurl }}" id="{{ post.id }}" class="dojo-task-link">
                     <img src="/img/logo-small-256.png" />
                     {{ post.title }}
                 </a></h2>
@@ -45,3 +50,18 @@ title:  "Greeting kata"
         </ul>
     </div></div></div>
 </section>
+{% include contact.html %}
+{% include scripts.html %}
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $(".dojo-task-link").each( function() {
+            if (localStorage.getItem(this.id + "-solved")) {
+                $(this).append("&nbsp;<i class='fa fa-check text-success'></i>");
+            }
+        });
+    });
+</script>
+
+</body>
+
+</html>

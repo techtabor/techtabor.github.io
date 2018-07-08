@@ -111,6 +111,7 @@ function chainedTest(k) {
     let test_cnt = $(".test-input-text").length;
     if (k > test_cnt) {
         console.log("All tests succeeded :)");
+        localStorage.setItem(task_id + "-solved", true);
         $("#success-modal").modal();
     } else {
         if (singleTest(k)) {
