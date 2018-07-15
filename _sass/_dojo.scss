@@ -31,8 +31,19 @@ code {
     }
 }
 
+#hints {
+    padding-top: 50px;
+    background: url("../img/bg-pattern.png"), $head-primary; /* fallback for old browsers */
+    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary); /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    color: white;
+    h3 {
+        font-size: 30px;
+    }
+}
+
 .coding-area {
     padding-top: 10px;
+    padding-bottom: 30px;
     background: url("../img/bg-pattern.png"), white;
 }
 
