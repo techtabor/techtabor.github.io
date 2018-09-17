@@ -324,7 +324,6 @@ section {
         margin-top: 0;
         margin-bottom: 25px;
         color: white;
-        max-width: 450px;
         font-size: 50px;
       }
       p {
@@ -432,7 +431,7 @@ section {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2, section.support .support-content h2 {
-    font-size: 80px;
+    font-size: 60px;
   }
   section.cta .cta-content p, section.support .support-content p {
     font-size: 24px;
