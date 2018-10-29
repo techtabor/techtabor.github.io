@@ -29,6 +29,23 @@
                 </a>
             </div>
             {% endfor %}
+            {% for post in site.categories.processing %}
+            <div class="col-lg-4 col-sm-6">
+                <a href="{{ post.url }}" class="portfolio-box">
+                    <img src="/{{ post.header-img }}" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{ post.title }}
+                            </div>
+                            <div class="project-name">
+                                {{ post.subtitle }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

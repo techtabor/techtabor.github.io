@@ -4,7 +4,7 @@ title:      "Bajnokságszervező"
 date:       2017-05-15 09:00:00
 author:     "SzeLev"
 header-img: "img/projektek/szelevprojekt/header.jpg"
-categories: projektek
+categories: projektek-old
 ---
 
 # Bevezetés #

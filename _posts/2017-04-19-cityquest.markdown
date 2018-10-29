@@ -5,7 +5,7 @@ subtitle:   "The future of tourism"
 date:       2017-04-19 11:00:00
 author:     "Balázs Németh and Marcell Szakály"
 header-img: "img/projektek/cityquest_header.jpg"
-categories: projektek
+categories: projektek-old
 ---
 
 <h2>Concept</h2>
