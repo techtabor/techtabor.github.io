@@ -4,7 +4,7 @@ title:      "VinylTrade"
 subtitle:   ""
 date:       2020-06-06 10:00:00
 author:     "Fustos Gergely, Barta Zsombor, Szajkó Bence"
-header-img: "img/projektek/daruszurke/vinyltrade_home.png"
+header-img: "img/projektek/daruszurke/vinyltrade_home_21.png"
 categories: projektek
 ---
 <h2>Cél</h2>
