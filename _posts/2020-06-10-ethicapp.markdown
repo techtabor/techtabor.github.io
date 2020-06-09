@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "EthicApp"
+subtitle:   ""
+date:       2020-05-18 10:00:00
+author:     "Király Márk, Kovács Alex"
+header-img: "img/projektek/daruszurke/ethicapp_background.jpg"
+categories: projektek
+---
+<h2>Cél</h2>
+Egy eszközt létrehozni azok számára, akik szeretnék összegyűjtve látni, kiértékelni, valamint megválaszolni az adott etikai kérdéseket.
+
+<h2>Megvalósítás</h2>
+A projekt jelenlegi állása szerint a felhasználók képesek etikai dilemmákat megválaszolni, és meg tudják tekinteni a dilemmákkal kapcsolatos statisztikákat.
+
+<h2>Technológiák</h2>
+Adatbázis kezeléshez a <a href="https://firebase.google.com/">Firebase</a>-nek a Firestore nevű szolgáltatását használtuk. A statisztikák vizualizálásához <a href="https://www.chartjs.org/">Chart.js</a>-t használtunk. Az IP címek lekéréséhez <a href="https://www.ipify.org/">ipify API</a>-t használtunk.
+
+<h2>Képek</h2>
+Főoldalról egy kép
+
+<img src="{{ site.baseurl }}/img/projektek/daruszurke/ethicapp_index.jpg" class="img-responsive" alt="Home Page">
+
+Villamos_alap dilemma kép
+
+<img src="{{ site.baseurl }}/img/projektek/daruszurke/ethicapp_trolley.jpg" class="img-responsive" alt="Trolley Problem">
+
+A villamos_alap statisztikájáról egy kép. A statisztikákba beletartoznak a felhasználók által megadott válaszok.
+
+<img src="{{ site.baseurl }}/img/projektek/daruszurke/ethicapp_statistics.jpg" class="img-responsive" alt="Statistics">
+
+<h4><a href="https://ethicapp.glitch.me/">Demó</a></h4>
+<h4><a href="https://github.com/4rt3xp0/ethicapp">Elérhető Forráskód</a></h4>
