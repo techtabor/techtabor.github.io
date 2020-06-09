@@ -4,7 +4,7 @@ title:      "CityQuest"
 subtitle:   "The future of tourism"
 date:       2017-04-19 11:00:00
 author:     "Balázs Németh and Marcell Szakály"
-header-img: "img/projektek/cityquest_header.jpg"
+header-img: "img/projektek/almasderes/cityquest_header.jpg"
 categories: projektek
 ---
 
@@ -30,4 +30,4 @@ categories: projektek
 
 <p> The Stats Page</p>
 
-![Alt](/img/projektek/cityquest_stats.png "Stats")
+![Alt](/img/projektek/almasderes/cityquest_stats.png "Stats")

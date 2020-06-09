@@ -4,7 +4,7 @@ title:      "Band search"
 //subtitle:   "Zenekar kereső honlap"
 date:       2017-05-05 10:00:00
 author:     "Fraknói Ádám, Molnár-Sáska Zoltán, Vári-Kakas Andor"
-header-img: "img/projektek/bandsearch_background.jpg"
+header-img: "img/projektek/almasderes/bandsearch_background.jpg"
 categories: projektek
 ---
 <h2>Cél</h2>
@@ -19,11 +19,11 @@ Webszerverként <a href="https://nodejs.org">node.js</a> szervert használunk, b
 <h2>Képek</h2>
 Egy ember profilja:
 
-<img src="{{ site.baseurl }}/img/projektek/bandsearch_profile.png" class="img-responsive" alt="Profile">
+<img src="{{ site.baseurl }}/img/projektek/almasderes/bandsearch_profile.png" class="img-responsive" alt="Profile">
 
 
 Zenakar felajánlása:
 
-<img src="{{ site.baseurl }}/img/projektek/bandsearch_matching.png" class="img-responsive" alt="Matching">
+<img src="{{ site.baseurl }}/img/projektek/almasderes/bandsearch_matching.png" class="img-responsive" alt="Matching">
 
 <h2><a href="https://github.com/msaska9/Zenekar">Forráskód</a></h2>

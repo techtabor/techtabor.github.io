@@ -4,7 +4,7 @@ title:      "Journey Logbook"
 subtitle:   ""
 date:       2017-05-12 12:00:00
 author:     "Jakab Bence and Martinák Zalán"
-header-img: "img/projektek/plane-1031681__340.jpg"
+header-img: "img/projektek/almasderes/plane-1031681__340.jpg"
 categories: projektek
 ---
 
@@ -16,24 +16,24 @@ categories: projektek
 
 <p>A repülős utazások alapadatait (Honnan, Hová, Mikor) egy egyszerű szerkezetű MS Excel táblázatban kell első körben az utazónak rögzítenie.</p>
 
-<!--kép tábla-->	
+<!--kép tábla-->
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/journeyLogbook_excel.png" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/journeyLogbook_excel.png" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <p>Az Excel fájl feltöltését követően egy informatív, dashboard jellegű összefoglaló kerül előállításra:</p>
 
-<!--kép logbook-->	
+<!--kép logbook-->
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/journeyLogbook_page_top.jpg" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/journeyLogbook_page_top.jpg" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <p>Itt térképes formában, ill. különböző grafikonokon keresztül kerülnek megjelenítésre az utazások:</p>
 
-<!--kép charts-->	
+<!--kép charts-->
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/journeyLogbook_page_charts.jpg" class="img-responsive" alt="Post Sample Image">
-</a>	
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/journeyLogbook_page_charts.jpg" class="img-responsive" alt="Post Sample Image">
+</a>
 
 
 <h2 class="section-heading">Megvalósítás</h2>

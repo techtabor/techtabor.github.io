@@ -4,7 +4,7 @@ title:      "edUit"
 subtitle:   "A modular document editor"
 date:       2017-05-22
 author:     "Bálint Martin"
-header-img: "img/projektek/eduit_background.png"
+header-img: "img/projektek/almasderes/eduit_background.png"
 categories: projektek-old
 ---
 edUit
@@ -30,7 +30,7 @@ Cooperation
 edUit also makes cooperation with others easy. You can share documents with a single link and others can quickly join and work together in real time. edUit also runs in the cloud making it accessible from any modern browser on any device. If you prefer to go offline, we also offer installable versions for all major mobile and pc platforms.
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/eduit_advanced.png" class="img-responsive" alt="edUit advanced UI">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/eduit_advanced.png" class="img-responsive" alt="edUit advanced UI">
 </a>
 
 Education
@@ -41,7 +41,7 @@ Students often decide to take notes on paper even in the age of technology. The 
 This focus involves developing official packages targeted at students from elementary school to college. Examples include a package to help kids learn how to draw letters, another package to build math formulas by dragging blocks together with more advanced versions where students type formulas or use LaTeX - a programming language for math expressions. Another example which shows how powerful edUit is that teachers can use these packages to create worksheets for their students and use a package to correct them and reward the students based on their result. The reward could even be a multiplayer game implemented as a package.
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/eduit_kids.png" class="img-responsive" alt="edUit kids UI">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/eduit_kids.png" class="img-responsive" alt="edUit kids UI">
 </a>
 
 Currently working

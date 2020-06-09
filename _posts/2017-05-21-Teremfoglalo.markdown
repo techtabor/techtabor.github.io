@@ -23,7 +23,7 @@ Node js-el csináltuk a backend-et. A frontend írásához ejs template-t és bo
 Dolgozunk rajta, hogy lehessen időpontra termet keresni, foglalásnál további információkat is megadni, és egyszerre több hét foglalása is elérhető legyen.
 
 
-![](/img/projektek/teremfoglalo-screenshot.png "screenshot")
+![](/img/projektek/almasderes/teremfoglalo-screenshot.png "screenshot")
 
 
 ## Forráskód
