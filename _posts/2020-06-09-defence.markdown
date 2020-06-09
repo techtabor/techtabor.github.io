@@ -1,0 +1,21 @@
+﻿---
+layout:     post
+title:      "De-Fence"
+subtitle:   ""
+date:       2020-05-05 10:00:00
+author:     "Galambos Ábel, Tot Bagi Márton"
+header-img: "img/projektek/daruszurke/df_header.png"
+categories: projektek
+---
+
+<h2>Cél</h2>
+A mi projektünk célja, hogy ezt a csodás kétszemélyes társasjátékot digitalizáljuk, ezzel elintézve, hogy a világ átellenes csücskeiről is lehessen játszani egymással.
+
+<h2>Technológia</h2>
+A játékot a <a href="https://unity.com">Unity </a> nevű game engine-nel készítettük, ahol C#-ban írtuk a programot.
+
+<img src="/img/projektek/daruszurke/df_pic.png" class="img-responsive" alt="jatek_menet">
+
+<a href="https://drive.google.com/drive/folders/1JLjgQg3Cy_7ZXGfryfjmYjuZICiZZLXh?usp=sharing">Link</a> ha szeretnéd telepíteni
+
+<a href="https://github.com/GalambosAbel/De-Fence">Forráskód</a>
