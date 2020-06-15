@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-05-12 12:00:00
 author:     "Jakab Bence and Martinák Zalán"
 header-img: "img/projektek/almasderes/plane-1031681__340.jpg"
-categories: projektek
+categories: projektek-old
 ---
 
 <h2 class="section-heading">Cél</h2>
