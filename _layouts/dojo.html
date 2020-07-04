@@ -65,7 +65,7 @@ print("Hello " + s);</pre>
                     </div>
                     <div class="col-md-7">
                         <span>Helyes kimenet:</span>
-                        <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output }}</pre>
+                        <pre class="test-output-text" id="test-output-{{forloop.index}}">{{ test.output | join: '<br/>' }}</pre>
                     </div>
                 </div></div>
             </div>
@@ -93,7 +93,7 @@ print("Hello " + s);</pre>
                 <br>Ezzel sikeresen teljesítetted ezt a küldetést <i class="fa fa-smile-o"></i></p>
             </div>
             <div class="modal-footer">
-                <a href="/" class="btn btn-default btn-xl">Vissza a főoldalra</a>    
+                <a href="/" class="btn btn-default btn-xl">Vissza a főoldalra</a>
                 {% endif %}
             </div>
         </div>
