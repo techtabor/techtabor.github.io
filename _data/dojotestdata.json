@@ -1,72 +1,92 @@
 {
-    "/dojo/greeting-challenge-1": [
-        {
-            "input": "Sasha",
-            "output": "Good morning, Sasha!"
-        },
-        {
-            "input": "Lord Voldemort",
-            "output": "Good morning, Lord Voldemort!"
-        }
-    ],
-    "/dojo/greeting-challenge-2": [
-        {
-            "input": "Sasha",
-            "output": "****************************************\nGood morning, Sasha!\n****************************************"
-        },
-        {
-            "input": "Professor Proton",
-            "output": "****************************************\nGood morning, Professor Proton!\n****************************************"
-        }
-    ],
-    "/dojo/greeting-challenge-3": [
-        {
-            "input": "Joey",
-            "output": "****************************************\nGood morning, Joey!\n****************************************"
-        },
-        {
-            "input": "",
-            "output": "****************************************\nGood morning, my friend!\n****************************************"
-        },
-        {
-            "input": "friend of my friend",
-            "output": "****************************************\nGood morning, friend of my friend!\n****************************************"
-        }
-    ],
-    "/dojo/greeting-challenge-4": [
-        {
-            "input": "Starshine",
-            "output": "****************************************\n* Good morning, Starshine!             *\n****************************************"
-        },
-        {
-            "input": "Paul Kate Peter",
-            "output": "****************************************\n* Good morning, Paul Kate Peter!       *\n****************************************"
-        },
-        {
-            "input": "",
-            "output": "****************************************\n* Good morning, my friend!             *\n****************************************"
-        },
-        {
-            "input": "Little Miss Sunshine?",
-            "output": "****************************************\n* Good morning, Little Miss Sunshine?! *\n****************************************"
-        }
-    ],
-    "/dojo/greeting-challenge-5": [
-        {
-            "input": "Vietnam",
-            "output": "****************************************\n*        Good morning, Vietnam!        *\n****************************************"
-        },
-        {
-            "input": "",
-            "output": "****************************************\n*       Good morning, my friend!       *\n****************************************"
-        },
-        {
-            "input": "Professor Dumbledore",
-            "output": "****************************************\n* Good morning, Professor Dumbledore!  *\n****************************************"
-        },
-        {
-            "input": "Dr. Watson",
-            "output": "****************************************\n*      Good morning, Dr. Watson!       *\n****************************************"
-        }
-    ]
+  "/dojo/greeting-challenge-1": [
+    {
+      "input": "Sasha",
+      "output": "Good morning, Sasha!"
+    },
+    {
+      "input": "Lord Voldemort",
+      "output": "Good morning, Lord Voldemort!"
+    }
+  ],
+  "/dojo/greeting-challenge-2": [
+    {
+      "input": "Sasha",
+      "output": "****************************************\nGood morning, Sasha!\n****************************************"
+    },
+    {
+      "input": "Professor Proton",
+      "output": "****************************************\nGood morning, Professor Proton!\n****************************************"
+    }
+  ],
+  "/dojo/greeting-challenge-3": [
+    {
+      "input": "Joey",
+      "output": "****************************************\nGood morning, Joey!\n****************************************"
+    },
+    {
+      "input": "",
+      "output": "****************************************\nGood morning, my friend!\n****************************************"
+    },
+    {
+      "input": "friend of my friend",
+      "output": "****************************************\nGood morning, friend of my friend!\n****************************************"
+    }
+  ],
+  "/dojo/greeting-challenge-4": [
+    {
+      "input": "Starshine",
+      "output": "****************************************\n* Good morning, Starshine!             *\n****************************************"
+    },
+    {
+      "input": "Paul Kate Peter",
+      "output": "****************************************\n* Good morning, Paul Kate Peter!       *\n****************************************"
+    },
+    {
+      "input": "",
+      "output": "****************************************\n* Good morning, my friend!             *\n****************************************"
+    },
+    {
+      "input": "Little Miss Sunshine?",
+      "output": "****************************************\n* Good morning, Little Miss Sunshine?! *\n****************************************"
+    }
+  ],
+  "/dojo/greeting-challenge-5": [
+    {
+      "input": "Vietnam",
+      "output": "****************************************\n*        Good morning, Vietnam!        *\n****************************************"
+    },
+    {
+      "input": "",
+      "output": "****************************************\n*       Good morning, my friend!       *\n****************************************"
+    },
+    {
+      "input": "Professor Dumbledore",
+      "output": "****************************************\n* Good morning, Professor Dumbledore!  *\n****************************************"
+    },
+    {
+      "input": "Dr. Watson",
+      "output": "****************************************\n*      Good morning, Dr. Watson!       *\n****************************************"
+    }
+  ],
+  "/dojo/greeting-challenge-6": [
+    {
+      "input": "Sasha",
+      "output": "****************************************\n*                                      *\n*         Good morning, Sasha!         *\n*                                      *\n****************************************"
+    },
+    {
+      "input": "Professor Proton",
+      "output": "****************************************\n*                                      *\n*   Good morning, Professor Proton!    *\n*                                      *\n****************************************"
+    }
+  ],
+  "/dojo/greeting-challenge-7": [
+    {
+      "input": "Sasha",
+      "output": "########################################\n#                                      #\n#         Good morning, Sasha!         #\n#                                      #\n########################################"
+    },
+    {
+      "input": "Professor Proton",
+      "output": "########################################\n#                                      #\n#   Good morning, Professor Proton!    #\n#                                      #\n########################################"
+    }
+  ]
 }
