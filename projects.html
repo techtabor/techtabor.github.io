@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<section class="task-description">
+  <div class="container"><div class="row"><div class="col-xs-12">
+    <h1>Projektek</h1>
+    <p>Az alábbi projekteket mind korábbi diákjaink vezették és készítették. A processing projektek néhány napos, a többi projektek egy egész éves munka eredményei.</p>
+  </div></div></div>
+  </section>
+
+<div class="container-fluid">
+  <div class="row no-gutter">
+    {% for post in site.categories.projektek %}
+    <div class="col-lg-4 col-sm-6">
+      <a href="{{ post.url }}" class="portfolio-box">
+        <img src="/{{ post.header-img }}" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">
+              {{ post.title }}
+            </div>
+            <div class="project-name">
+              {{ post.subtitle }}
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
