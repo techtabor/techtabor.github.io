@@ -5,7 +5,6 @@ subtitle:   "avagy hogyan ismerjük ki játékostársainkat, ellenfeleinket."
 date:       2017-04-20 04:20:00
 author:     "Csukás Ádám, Székely Mihály"
 header-img: "img/projektek/almasderes/WaterPolo2.jpg"
-header-img: "img/projektek/almasderes/WaterPolo2.jpg"
 categories: projektek
 ---
 
@@ -20,18 +19,18 @@ categories: projektek
 <p>Első lépésként beírjuk az adott mérkőzésen szereplő játékosok neveit, melyeket a hivatalosan aktív játékosok listájából választhatjuk ki.</p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/almasderes/PlayerSelection.jpg" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/waterpolo_PlayerSelection.jpg" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <p>Az ezt követő oldalon van alkalmazásunk magja, ugyanis itt nyílik lehetőségünk a mérkőzés során megtörtént események bevitelére, illetve a eredmény követésére.</p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/almasderes/ActivitySelection.jpg" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/waterpolo_ActivitySelection.jpg" class="img-responsive" alt="Post Sample Image">
 </a>
 
 <p>Végül pedig a mérkőzés befejeztével, vagy akár közben is leolvashatjuk az adatokat, például hőtérkép segítségével.</p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/projektek/almasderes/Heatmap.jpg" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/projektek/almasderes/waterpolo_Heatmap.jpg" class="img-responsive" alt="Post Sample Image">
 </a>
 
