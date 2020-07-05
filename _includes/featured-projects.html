@@ -28,6 +28,13 @@
               <div class="project-name">
                 {{ post.subtitle }}
               </div>
+              <div class="project-tags">
+                {% for tag in post.tags %}
+                {% if tag != 'featured'%}
+                  #{{ tag }}
+                {% endif %}
+                {% endfor %}
+              </div>
             </div>
           </div>
         </a>
