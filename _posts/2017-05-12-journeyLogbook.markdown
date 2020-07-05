@@ -5,7 +5,8 @@ subtitle:   ""
 date:       2017-05-12 12:00:00
 author:     "Jakab Bence and Martinák Zalán"
 header-img: "img/projektek/almasderes/journeyLogbook_plane-1031681__340.jpg"
-categories: projektek-old
+categories: projektek
+tags: ["almasderes"]
 ---
 
 <h2 class="section-heading">Cél</h2>

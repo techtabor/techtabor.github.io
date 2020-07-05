@@ -6,6 +6,7 @@ date:       2020-05-05 10:00:00
 author:     "Galambos Ábel, Tot Bagi Márton"
 header-img: "img/projektek/daruszurke/df_header.png"
 categories: projektek
+tags: ["featured", "daruszürke"]
 ---
 
 <h2>Cél</h2>

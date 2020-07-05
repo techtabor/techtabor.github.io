@@ -6,6 +6,7 @@ date:       2020-06-06 10:00:00
 author:     "Fustos Gergely, Barta Zsombor, Szajkó Bence"
 header-img: "img/projektek/daruszurke/vinyltrade_home_21.png"
 categories: projektek
+tags: ["featured", "daruszürke"]
 ---
 <h2>Cél</h2>
 A mi projektünk célja, hogy megkönnyítsük a bakelit lemez gyűjtőknek a lemezekkel való kereskedést.

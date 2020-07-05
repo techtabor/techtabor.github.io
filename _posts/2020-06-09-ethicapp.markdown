@@ -6,6 +6,7 @@ date:       2020-05-18 10:00:00
 author:     "Király Márk, Kovács Alex"
 header-img: "img/projektek/daruszurke/ethicapp_background.jpg"
 categories: projektek
+tags: ["featured", "daruszürke"]
 ---
 <h2>Cél</h2>
 Egy eszközt létrehozni azok számára, akik szeretnék összegyűjtve látni, kiértékelni, valamint megválaszolni az adott etikai kérdéseket.

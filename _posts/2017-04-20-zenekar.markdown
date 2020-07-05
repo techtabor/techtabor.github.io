@@ -5,7 +5,8 @@ title:      "Band search"
 date:       2017-05-05 10:00:00
 author:     "Fraknói Ádám, Molnár-Sáska Zoltán, Vári-Kakas Andor"
 header-img: "img/projektek/almasderes/bandsearch_background.jpg"
-categories: projektek-old
+categories: projektek
+tags: ["almasderes"]
 ---
 <h2>Cél</h2>
 A mi projektünk célja, hogy fiatalok, akik még nem játszanak semmilyen zenekarban, de szeretnének és nincsen bandájuk, könnyen találjanak hasonló embereket, akikkel szívesen tudnának játszani.

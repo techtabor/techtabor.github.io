@@ -5,7 +5,8 @@ subtitle:   "A döntő teljes programja egy kattintás távolságra"
 date:       2017-05-21
 author:     "Molnár-Sáska Zsófi & Fuisz Gábor"
 header-img: "img/projektek/almasderes/durer_header.jpg"
-categories: projektek-old
+categories: projektek
+tags: ["almasderes"]
 ---
 
 Sok rendezvényen, konferencián a résztvevők papírfüzetekkel a kezükben támolyognak a folyosókon az 5 perce kezdődött programjukat keresve. Ezt szeretnénk megkönnyíteni az általunk készített mobil alkalmazással, amit ez alkalommal a Dürer Csapatverseny döntőjének programjával töltöttünk fel.

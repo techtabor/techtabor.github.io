@@ -5,6 +5,7 @@ date:       2017-05-23 04:20:00
 author:     "Nanys Patrick, Schweitzer Ádám"
 header-img: "img/projektek/almasderes/roboclash_background.png"
 categories: projektek
+tags: ["featured", "almasderes"]
 ---
 
 Az ötlet lényege, hogy legyen egy olyan internetes felület ahol lehet robotokat beprogramozni úgy, hogy aztán azzal a programmal más játékosokat győzzünk le.

@@ -6,6 +6,7 @@ date:       2017-04-20 04:20:00
 author:     "Csukás Ádám, Székely Mihály"
 header-img: "img/projektek/almasderes/WaterPolo2.jpg"
 categories: projektek
+tags: ["featured", "almasderes"]
 ---
 
 <h2 class="section-heading">Alapelképzelés</h2>

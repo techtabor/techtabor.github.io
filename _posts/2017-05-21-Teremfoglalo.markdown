@@ -5,7 +5,8 @@ subtitle:   "Iskolai tanrermek foglaltságának nyilvántartásához"
 date:       2017-05-21 19:54:00
 author:     "Koltai Dani, Veres Tomi"
 header-img: "img/projektek/almasderes/teremfoglalo_header.jpg"
-categories: projektek-old
+categories: projektek
+tags: ["almasderes"]
 ---
 ## Cél
 Egy olyan alkalmazás létrehozása, amivel iskolai termek foglaltságát lehet nyomonkövetni.

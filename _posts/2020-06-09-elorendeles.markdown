@@ -6,6 +6,7 @@ date:		2020-06-08 18:00:00
 author:		"Szabó Benedek, Németh Marcell"
 header-img:	"img/projektek/daruszurke/elorendeles_kakaoscsiga21.png"
 categories:	projektek
+tags: ["featured", "daruszürke"]
 ---
 
 <h2>Cél</h2>

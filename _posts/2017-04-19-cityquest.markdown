@@ -6,6 +6,7 @@ date:       2017-04-19 11:00:00
 author:     "Balázs Németh and Marcell Szakály"
 header-img: "img/projektek/almasderes/cityquest_header.jpg"
 categories: projektek
+tags: ["featured", "almasderes"]
 ---
 
 <h2>Concept</h2>

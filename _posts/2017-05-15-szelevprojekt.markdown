@@ -4,7 +4,8 @@ title:      "Bajnokságszervező"
 date:       2017-05-15 09:00:00
 author:     "SzeLev"
 header-img: "img/projektek/almasderes/szelevprojekt/header.jpg"
-categories: projektek-old
+categories: projektek
+tags: ["almasderes"]
 ---
 
 # Bevezetés #

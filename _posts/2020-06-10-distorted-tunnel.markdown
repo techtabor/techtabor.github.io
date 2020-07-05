@@ -6,6 +6,7 @@ date:       2020-06-12 14:00:00
 author:     "Hervay Bence, Szabó Kornél"
 header-img: "img/projektek/daruszurke/distorted-tunnel_header.png"
 categories: projektek
+tags: ["featured", "daruszürke"]
 ---
 
 <h2>Cél</h2>
