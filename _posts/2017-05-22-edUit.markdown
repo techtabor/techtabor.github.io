@@ -1,5 +1,5 @@
 ---
-layout:     postEduit
+layout:     post
 title:      "edUit"
 subtitle:   "A modular document editor"
 date:       2017-05-22
