@@ -3,7 +3,7 @@
     color: $theme-primary;
 }
 
-#editor { 
+#editor {
     margin: 10px 15px;
     border-radius: 10px;
     position: absolute;
@@ -104,6 +104,7 @@ code {
 }
 
 .theory {
+    padding-bottom: 30px;
     p, ul {
         font-size: 20px;
     }
