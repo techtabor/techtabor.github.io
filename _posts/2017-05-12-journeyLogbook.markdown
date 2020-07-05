@@ -42,13 +42,3 @@ categories: projektek-old
 
 <h4> <a href="https://mazalan01.github.io/"> Élő demo-verzió </a> </h4>
 <h4> <a href="https://github.com/mazalan01/mazalan01.github.io"> Elérhető forráskód </a> </h4>
-
-<!--<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" class="img-responsive" alt="Post Sample Image">
-</a>
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
--->
