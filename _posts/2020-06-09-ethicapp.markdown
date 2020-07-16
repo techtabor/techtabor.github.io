@@ -30,5 +30,6 @@ A villamos_alap statisztikájáról egy kép. A statisztikákba beletartoznak a 
 
 <img src="{{ site.baseurl }}/img/projektek/daruszurke/ethicapp_statistics.jpg" class="img-responsive" alt="Statistics">
 
-<h4><a href="https://ethicapp.glitch.me/">Demó</a></h4>
-<h4><a href="https://github.com/4rt3xp0/ethicapp">Elérhető Forráskód</a></h4>
+
+<h4><a href="https://ethicapp.github.io/">Demó</a></h4>
+<h4><a href="https://github.com/EthicApp/ethicapp.github.io/">Elérhető Forráskód</a></h4>
