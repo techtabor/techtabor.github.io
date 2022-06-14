@@ -6,7 +6,7 @@ date:       2020-06-03 15:34:00
 author:     "Bőhm Dániel, Perger Patrik"
 header-img: "img/projektek/daruszurke/gyakorlapp_header.png"
 categories: projektek
-tags: ["featured", "daruszürke"]
+tags: ["daruszürke"]
 ---
 <h2>Cél</h2>
 Azt figyeltük meg, hogy sokan vagyunk úgy, hogy azt hisszük, hogy rendesen felkészültünk egy dolgozatra, de mégsem tudunk válaszolni konkrét kérdésekre. Célunk az volt, hogy a számonkérések előtt kaphassunk valamilyen visszajelzést a tudásunkról.
@@ -30,4 +30,3 @@ A bejelentkező felület:
 <h2><a href="https://github.com/Bennett567/Gyakorlappreal">Forráskód</a></h2>
 
 <h2>Az alkalmazás <a href="https://drive.google.com/drive/folders/117KcV7qU4RKQ3mzyKQ9GsBsx1iwg4Bo0?usp=sharing">ide kattintva</a> elérhető.</h2>
-
