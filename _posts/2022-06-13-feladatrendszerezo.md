@@ -6,7 +6,7 @@ date:       2022-06-14 13:00:00
 author:     "Mondics Anna, Vavrinecz Péter"
 header-img: "img/projektek/ejfekete/zzz_header.png"
 categories: projektek
-tags: ["éjfekete"]
+tags: ["featured", "éjfekete"]
 ---
 
 <h2>Cél</h2>
